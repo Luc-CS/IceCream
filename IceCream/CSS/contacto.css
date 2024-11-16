@@ -1,0 +1,68 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cuadroContacto {
+    background-color: #ffffff; /* Color elegante para destacar */
+    padding: 40px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 350px;
+    max-width: 500px;
+}
+
+form {
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+form button{
+    align-items: center;
+}
+
+#botonEnviar {
+    background-color: #ffffff;
+    color: fuchsia;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid fuchsia;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#botonEnviar:hover {
+    background-color: fuchsia;
+    color: #ffffff;
+}
